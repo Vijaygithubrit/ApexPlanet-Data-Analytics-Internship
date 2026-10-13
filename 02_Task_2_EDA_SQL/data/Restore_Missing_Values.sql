@@ -1,0 +1,33 @@
+USE apexplanet_task2;
+
+-- Restore values that were originally missing in the source dataset.
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000049';
+UPDATE sales_reimport SET City = NULL WHERE Transaction_ID = 'TXN000074';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000099';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000149';
+UPDATE sales_reimport SET City = NULL WHERE Transaction_ID = 'TXN000149';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000199';
+UPDATE sales_reimport SET City = NULL WHERE Transaction_ID = 'TXN000224';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000249';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000299';
+UPDATE sales_reimport SET City = NULL WHERE Transaction_ID = 'TXN000299';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000349';
+UPDATE sales_reimport SET City = NULL WHERE Transaction_ID = 'TXN000374';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000399';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000449';
+UPDATE sales_reimport SET City = NULL WHERE Transaction_ID = 'TXN000449';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000499';
+UPDATE sales_reimport SET City = NULL WHERE Transaction_ID = 'TXN000524';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000549';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000599';
+UPDATE sales_reimport SET City = NULL WHERE Transaction_ID = 'TXN000599';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000649';
+UPDATE sales_reimport SET City = NULL WHERE Transaction_ID = 'TXN000674';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000699';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000799';
+UPDATE sales_reimport SET City = NULL WHERE Transaction_ID = 'TXN000824';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000849';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000899';
+UPDATE sales_reimport SET City = NULL WHERE Transaction_ID = 'TXN000899';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000949';
+UPDATE sales_reimport SET Age = NULL WHERE Transaction_ID = 'TXN000999';
