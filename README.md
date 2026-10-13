@@ -1,6 +1,6 @@
 # 📊 ApexPlanet Data Analytics Internship
 
-A complete record of my **60-Day Data Analytics Internship at ApexPlanet Software Pvt. Ltd.**, documenting my journey from raw data preparation to exploratory analysis, interactive dashboards, statistical storytelling, and portfolio development.
+A complete record of my **60-Day Data Analytics Internship at ApexPlanet Software Pvt. Ltd.**, documenting my journey from raw data preparation to exploratory analysis, SQL-based business analysis, dashboard development, statistical storytelling, and portfolio creation.
 
 ---
 
@@ -19,12 +19,12 @@ The internship follows an end-to-end data analytics workflow:
 | Task | Title | Status | Tools / Focus |
 |---|---|---|---|
 | **Task 1** | Data Immersion & Wrangling | 🟢 Completed | Python, Pandas, Excel |
-| **Task 2** | EDA & Business Intelligence | ⚪ Not Started | Python, SQL, Visualization |
+| **Task 2** | Exploratory Data Analysis & Business Intelligence | 🟢 Completed | Python, Pandas, MySQL, Matplotlib, Seaborn |
 | **Task 3** | Deep-Dive Analysis & Interactive Dashboarding | ⚪ Not Started | Power BI / BI Tool |
 | **Task 4** | Data Storytelling & Statistical Validation | ⚪ Not Started | Statistics, Presentation |
 | **Task 5** | Capstone Integration & Portfolio Finalization | ⚪ Not Started | Portfolio, GitHub, LinkedIn |
 
-> **Status will be updated as each task is completed.**
+> Progress will be updated as each task is completed.
 
 ---
 
@@ -35,38 +35,25 @@ The internship follows an end-to-end data analytics workflow:
 **Status:** 🟢 Completed
 
 ### Objective
-
 Understand, assess, clean, transform, and prepare the provided dataset for further analysis.
 
 ### Work Completed
-
-- Dataset familiarization
+- Dataset familiarization and data profiling
 - Data dictionary creation
-- Initial data profiling
-- Missing-value analysis
-- Duplicate analysis
-- Data-type validation
-- Categorical consistency checks
+- Missing-value and duplicate analysis
+- Data-type and categorical consistency checks
 - Numerical and business-rule validation
 - Outlier investigation
 - Data cleaning and transformation
-- Final dataset validation
-- Cleaning documentation
+- Final dataset validation and documentation
 
 ### Tools
-
-- Python
-- Pandas
-- Jupyter Notebook
-- Microsoft Excel
-- Git & GitHub
+Python, Pandas, Jupyter Notebook, Microsoft Excel, Git, and GitHub.
 
 ### Deliverables
-
 - Data dictionary
 - Data cleaning notebook
-- Raw dataset
-- Cleaned dataset
+- Raw and cleaned datasets
 - Cleaning report
 - Validation evidence
 
@@ -76,32 +63,34 @@ Understand, assess, clean, transform, and prepare the provided dataset for furth
 
 ## 2️⃣ Task 2 — Exploratory Data Analysis & Business Intelligence
 
-**Status:** ⚪ Not Started
+**Status:** 🟢 Completed
 
 ### Objective
+Explore the cleaned sales dataset to identify patterns, trends, relationships, and business insights using descriptive statistics, visualization, and SQL.
 
-Explore the dataset to uncover patterns, trends, relationships, and business insights using statistical analysis, visualization, and SQL.
-
-### Planned Work
-
-- Descriptive statistics
-- Univariate analysis
-- Multivariate analysis
+### Work Completed
+- Dataset structure and descriptive-statistics analysis
+- Missing-value and data-quality investigation
+- Category, product, city, and monthly sales analysis
+- Customer and demographic analysis
 - Correlation analysis
-- Business questions
-- SQL queries
-- Query results
-- Dashboard mock-up
-- Business insights
+- SQL-based business queries and aggregations
+- Sales visualizations and a static dashboard
+- Documentation of findings, challenges, and limitations
+
+### Key Deliverables
+- EDA Jupyter Notebook
+- SQL business-analysis queries
+- Five visualizations
+- Retail sales dashboard image
+- Findings and challenges report
+- Supporting datasets and SQL validation scripts
 
 ### Tools
+Python, Pandas, Jupyter Notebook, MySQL, SQL, Matplotlib, Seaborn, and GitHub.
 
-- Python
-- Pandas
-- SQL
-- MySQL
-- Matplotlib / Seaborn
-- Excel / Visualization tools
+### Key Learnings
+Task 2 strengthened my ability to investigate data quality, validate analytical results, translate business questions into SQL queries, interpret statistical relationships, and communicate findings through visualizations.
 
 👉 **[View Task 2 →](./02_Task_2_EDA_SQL/)**
 
@@ -112,23 +101,17 @@ Explore the dataset to uncover patterns, trends, relationships, and business ins
 **Status:** ⚪ Not Started
 
 ### Objective
-
-Perform a focused deep-dive analysis of a key business area and build an interactive dashboard around core KPIs.
+Perform a focused analysis of a key business area and build an interactive dashboard around core KPIs.
 
 ### Planned Work
-
-- Define 3–5 core KPIs
-- Define KPI formulas and business rationale
-- Select a business area for deep-dive analysis
-- Perform detailed analysis
+- Define 3–5 core KPIs and their formulas
+- Select a business area for deeper analysis
+- Perform detailed analysis using Python or SQL
 - Build an interactive dashboard
-- Document key findings
+- Document findings and recommendations
 
 ### Tools
-
-- Power BI / BI Tool
-- Python / SQL
-- Data Visualization
+Power BI / BI Tool, Python, SQL, and data visualization.
 
 👉 **[View Task 3 →](./03_Task_3_Deep_Dive_Dashboard/)**
 
@@ -139,11 +122,9 @@ Perform a focused deep-dive analysis of a key business area and build an interac
 **Status:** ⚪ Not Started
 
 ### Objective
-
-Transform the analysis from Tasks 1–3 into a clear business story and use statistical methods to validate important findings.
+Transform the analysis from earlier tasks into a clear business story and use statistical methods to validate important findings.
 
 ### Planned Work
-
 - Develop a business narrative
 - Define a testable hypothesis
 - Perform appropriate statistical testing
@@ -152,11 +133,7 @@ Transform the analysis from Tasks 1–3 into a clear business story and use stat
 - Communicate business conclusions and recommendations
 
 ### Tools
-
-- Python
-- Statistics
-- PowerPoint / Google Slides
-- Data Visualization
+Python, statistics, PowerPoint / Google Slides, and data visualization.
 
 👉 **[View Task 4 →](./04_Task_4_Statistics_Storytelling/)**
 
@@ -167,25 +144,19 @@ Transform the analysis from Tasks 1–3 into a clear business story and use stat
 **Status:** ⚪ Not Started
 
 ### Objective
-
 Consolidate the internship work into a professional portfolio and present the complete learning journey.
 
 ### Planned Work
-
 - Review Tasks 1–4
 - Improve project consistency and presentation
-- Finalize portfolio
-- Prepare final presentation
+- Finalize the portfolio
+- Prepare the final presentation
 - Document technical skills and learning outcomes
 - Prepare LinkedIn content
-- Perform final project review
+- Perform a final project review
 
 ### Tools
-
-- GitHub
-- GitHub Pages / Portfolio
-- PowerPoint / Google Slides
-- LinkedIn
+GitHub, GitHub Pages / portfolio tools, PowerPoint / Google Slides, and LinkedIn.
 
 👉 **[View Task 5 →](./05_Task_5_Portfolio/)**
 
@@ -193,46 +164,58 @@ Consolidate the internship work into a professional portfolio and present the co
 
 # 🛠️ Skills Demonstrated
 
-Throughout this internship, I am developing practical skills in:
-
 ### Programming & Data Analysis
 - Python
-- Pandas
-- NumPy
+- Pandas and NumPy
 - Data Wrangling
 - Exploratory Data Analysis
-- Statistical Analysis
+- Descriptive and Statistical Analysis
+- Data Quality Validation
 
 ### Database & SQL
-- SQL
-- MySQL
+- SQL and MySQL
 - Data Extraction
-- Aggregation
-- Business Queries
+- Filtering and Aggregation
+- Grouping and Business Queries
+- Analytical Result Validation
 
 ### Visualization & Business Intelligence
 - Matplotlib
 - Seaborn
-- Power BI
+- Sales Trend Analysis
+- Correlation Analysis
 - Dashboard Development
-- KPI Analysis
 - Business Intelligence
 
 ### Professional & Portfolio Skills
 - Data Storytelling
 - Business Communication
-- Git
-- GitHub
+- Git and GitHub
 - Technical Documentation
+- Project Organization
 - LinkedIn Project Presentation
 
 ---
 
-# 📈 Internship Progress
+## 📈 Internship Progress Tracker
 
 ```text
-Task 1  ████████████████████  100%  ✅
-Task 2  ░░░░░░░░░░░░░░░░░░░░    0%  ⏳
-Task 3  ░░░░░░░░░░░░░░░░░░░░    0%  ⏳
-Task 4  ░░░░░░░░░░░░░░░░░░░░    0%  ⏳
-Task 5  ░░░░░░░░░░░░░░░░░░░░    0%  ⏳
+Task 1  ████████████████████  100%  ✅ Completed
+Task 2  ████████████████████  100%  ✅ Completed
+Task 3  ░░░░░░░░░░░░░░░░░░░░    0%  ⏳ Not Started
+Task 4  ░░░░░░░░░░░░░░░░░░░░    0%  ⏳ Not Started
+Task 5  ░░░░░░░░░░░░░░░░░░░░    0%  ⏳ Not Started
+```
+
+---
+
+## 📌 Repository Notes
+
+- Each task has its own folder containing relevant code, documentation, and deliverables.
+- Task-specific README files provide details about the work completed.
+- Analysis results and findings are documented to support reproducibility and review.
+- Internship progress will be updated as additional tasks are completed.
+
+---
+
+**Thank you for visiting my ApexPlanet Data Analytics Internship repository!** 🚀
