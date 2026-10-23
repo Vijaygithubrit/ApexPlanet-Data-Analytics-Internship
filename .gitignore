@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary/output files
+*.tmp
+*.log
+
+# Do not commit credentials, secrets, or private files.
+# Environment and secret files
+.env
+.env.*
+!.env.example
+# Keep internship instructions and personal documents local.
+# These rules do not delete the files from your computer.
+60-days_Tasks_Details.pdf
+Offer_letter_APSPL2648193.pdf
+
+# Ignore the original dataset, but do not ignore the cleaned dataset.
+ApexPlanet_DataAnalytics_Dataset*.xlsx
