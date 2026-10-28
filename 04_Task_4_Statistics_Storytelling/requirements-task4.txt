@@ -1,0 +1,6 @@
+# Task 4-specific analysis libraries
+pandas
+numpy
+scipy
+matplotlib
+openpyxl

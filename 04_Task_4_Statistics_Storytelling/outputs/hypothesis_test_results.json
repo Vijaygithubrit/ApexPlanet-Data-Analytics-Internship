@@ -1,0 +1,56 @@
+{
+  "hypothesis": {
+    "null": "Male and female customers have equal population means for customer-level average transaction value.",
+    "alternative": "Male and female customers have different population means for customer-level average transaction value.",
+    "test": "Two-sided Welch independent-samples t-test",
+    "significance_level": 0.05
+  },
+  "data_quality": {
+    "source_file": "03_Task_3_Deep_Dive_Dashboard/data/ApexPlanet_Cleaned_Sales_Dataset.xlsx",
+    "rows_loaded": 1000,
+    "columns_loaded": 13,
+    "missing_required_values": {
+      "Order_ID": 0,
+      "Customer_ID": 0,
+      "Gender": 0,
+      "Total_Sales": 0
+    },
+    "duplicate_order_id_rows_beyond_first": 8,
+    "invalid_or_missing_sales_values": 0,
+    "gender_transaction_counts": {
+      "Male": 511,
+      "Female": 489
+    },
+    "unique_order_ids": 992,
+    "unique_customers": 947,
+    "customers_with_inconsistent_gender": 34
+  },
+  "analysis": {
+    "unit_of_analysis": "One customer; mean of that customer's recorded Total_Sales values.",
+    "customers_excluded_for_inconsistent_gender": 34,
+    "male": {
+      "n_customers": 468,
+      "mean_average_transaction_value": 140930.6826388889,
+      "median_average_transaction_value": 107491.76000000001,
+      "standard_deviation": 115149.73303773707
+    },
+    "female": {
+      "n_customers": 445,
+      "mean_average_transaction_value": 135163.77548314608,
+      "median_average_transaction_value": 107697.64,
+      "standard_deviation": 110336.6908763553
+    },
+    "mean_difference_male_minus_female": 5766.907155742811,
+    "relative_mean_difference_percent_vs_female": 4.266607036633053,
+    "t_statistic": 0.7727779727197234,
+    "degrees_of_freedom_welch": 910.9452658112654,
+    "p_value": 0.4398542495598289,
+    "confidence_level": 0.95,
+    "confidence_interval_difference": [
+      -8878.914105456752,
+      20412.728416942373
+    ],
+    "decision": "Fail to reject the null hypothesis",
+    "business_interpretation": "The observed sample difference is not statistically significant at 5%; this does not prove the population means are equal."
+  }
+}

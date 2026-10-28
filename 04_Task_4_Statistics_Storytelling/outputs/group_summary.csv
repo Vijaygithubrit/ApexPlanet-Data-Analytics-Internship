@@ -1,0 +1,3 @@
+gender,n_customers,mean_average_transaction_value,median_average_transaction_value,standard_deviation
+Male,468,140930.6826388889,107491.76000000001,115149.73303773707
+Female,445,135163.77548314608,107697.64,110336.6908763553
