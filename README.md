@@ -24,7 +24,7 @@ The objective is to demonstrate practical data analytics skills, analytical thin
 | **Task 2** | Exploratory Data Analysis & SQL | 🟢 Completed | Python, Pandas, MySQL, Matplotlib, Seaborn |
 | **Task 3** | Customer Segmentation & Interactive Dashboarding | 🟢 Completed | Power BI, DAX, Customer Analytics |
 | **Task 4** | Statistical Analysis & Data Storytelling | 🟢 Completed | Python, SciPy, Statistics, PowerPoint |
-| **Task 5** | Capstone Integration & Portfolio Development | 🟡 In Progress | GitHub, GitHub Pages, HTML, CSS, JavaScript |
+| **Task 5** | Capstone Integration & Portfolio Development | 🟢 Completed | GitHub, GitHub Pages, HTML, CSS, JavaScript |
 
 ---
 
@@ -332,8 +332,6 @@ ApexPlanet-Data-Analytics-Internship/
 │   ├── README.md
 │   └── requirements-task4.txt
 │
-├── 05_Task_5_Portfolio/
-│   └── Portfolio website files (planned)
 │
 └── README.md
 ```
@@ -349,7 +347,6 @@ ApexPlanet-Data-Analytics-Internship/
 - Analysis outputs and findings are documented to support reproducibility and review.
 - Statistical conclusions are interpreted in the context of the available data and its limitations.
 - The repository is updated as the internship progresses.
-- Task 5 will consolidate the completed projects into a professional portfolio website.
 
 ---
 
