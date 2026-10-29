@@ -215,29 +215,38 @@ Python, Pandas, NumPy, SciPy, Matplotlib, statistical hypothesis testing, PowerP
 
 ---
 
-## 5️⃣ Task 5 — Capstone Integration & Portfolio Development
+## 5️⃣ Task 5 — Capstone Integration & Final Documentation
 
 **Status:** 🟡 In Progress
 
 ### Objective
-Integrate the completed internship projects into a polished, professional portfolio website that presents the projects, technical skills, analytical findings, and deliverables clearly.
 
-### Planned Work
-- Review and organize Tasks 1–4
-- Build a responsive portfolio website
-- Present project objectives, workflows, tools, and outcomes
-- Add dashboard screenshots, visualizations, and project links
-- Connect GitHub repositories and relevant professional profiles
-- Deploy the website using GitHub Pages
-- Test navigation, responsiveness, accessibility, and links
-- Finalize internship documentation and presentation
+Consolidate the completed Tasks 1–4, review the internship deliverables, and finalize the master documentation and project evidence.
+
+### Progress Completed
+
+- Reviewed the README documentation for Tasks 1–4.
+- Completed the separate HTML, CSS, and JavaScript portfolio website prototype.
+- Created a dedicated GitHub repository for the prototype.
+- Uploaded the website files and successfully deployed the prototype using GitHub Pages.
+- Kept the prototype separate from the ApexPlanet internship repository and the future main personal portfolio website.
+
+### Remaining Work
+
+- Verify the final task deliverables and repository links.
+- Keep the master README and task-specific documentation consistent.
+- Complete any remaining Task 5 internship requirements.
+- Update the internship progress tracker when the remaining work is finished.
 
 ### Tools
-HTML, CSS, JavaScript, Git, GitHub, and GitHub Pages.
 
-👉 **[View Task 5 — Portfolio Development](./05_Task_5_Portfolio/)**
+Git, GitHub, GitHub Pages, HTML, CSS, and JavaScript.
 
-*Note: The Task 5 folder link will work once the folder has been created and pushed to this repository.*
+**Separate prototype repository:**  
+https://github.com/Vijaygithubrit/Vijay-Data-Analyst-Portfolio
+
+**Prototype website:**  
+https://vijaygithubrit.github.io/Vijay-Data-Analyst-Portfolio/
 
 ---
 
