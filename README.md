@@ -1,16 +1,18 @@
 # 📊 ApexPlanet Data Analytics Internship
 
-A complete record of my **60-Day Data Analytics Internship at ApexPlanet Software Pvt. Ltd.**, documenting my journey from raw data preparation to exploratory analysis, SQL-based business analysis, dashboard development, statistical storytelling, and portfolio creation.
+A complete record of my **60-Day Data Analytics Internship at ApexPlanet Software Pvt. Ltd.**, documenting my journey from raw data preparation to exploratory analysis, SQL-based business analysis, interactive Power BI dashboards, statistical validation, business storytelling, and portfolio development.
 
 ---
 
 ## 🎯 Internship Overview
 
-This repository contains the projects, analysis, documentation, datasets, notebooks, dashboards, and deliverables completed throughout the ApexPlanet Data Analytics Internship.
+This repository contains the projects, datasets, notebooks, scripts, analysis reports, visualizations, dashboards, presentations, and supporting deliverables completed throughout the ApexPlanet Data Analytics Internship.
 
-The internship follows an end-to-end data analytics workflow:
+The project follows an end-to-end data analytics workflow:
 
-**Data Wrangling → EDA & SQL → Deep-Dive Analysis → Dashboarding → Statistical Storytelling → Portfolio**
+**Data Wrangling → EDA & SQL → Customer Segmentation & Dashboarding → Statistical Analysis & Storytelling → Portfolio Development**
+
+The objective is to demonstrate practical data analytics skills, analytical thinking, data quality validation, business intelligence, statistical interpretation, and professional communication.
 
 ---
 
@@ -19,26 +21,24 @@ The internship follows an end-to-end data analytics workflow:
 | Task | Title | Status | Tools / Focus |
 |---|---|---|---|
 | **Task 1** | Data Immersion & Wrangling | 🟢 Completed | Python, Pandas, Excel |
-| **Task 2** | Exploratory Data Analysis & Business Intelligence | 🟢 Completed | Python, Pandas, MySQL, Matplotlib, Seaborn |
-| **Task 3** | Deep-Dive Analysis & Interactive Dashboarding | ⚪ Not Started | Power BI / BI Tool |
-| **Task 4** | Data Storytelling & Statistical Validation | ⚪ Not Started | Statistics, Presentation |
-| **Task 5** | Capstone Integration & Portfolio Finalization | ⚪ Not Started | Portfolio, GitHub, LinkedIn |
-
-> Progress will be updated as each task is completed.
+| **Task 2** | Exploratory Data Analysis & SQL | 🟢 Completed | Python, Pandas, MySQL, Matplotlib, Seaborn |
+| **Task 3** | Customer Segmentation & Interactive Dashboarding | 🟢 Completed | Power BI, DAX, Customer Analytics |
+| **Task 4** | Statistical Analysis & Data Storytelling | 🟢 Completed | Python, SciPy, Statistics, PowerPoint |
+| **Task 5** | Capstone Integration & Portfolio Development | 🟡 In Progress | GitHub, GitHub Pages, HTML, CSS, JavaScript |
 
 ---
 
-# 📂 Tasks
+# 📂 Internship Tasks
 
 ## 1️⃣ Task 1 — Data Immersion & Wrangling
 
 **Status:** 🟢 Completed
 
 ### Objective
-Understand, assess, clean, transform, and prepare the provided dataset for further analysis.
+Understand, assess, clean, transform, and validate the sales dataset to prepare reliable data for downstream analysis.
 
 ### Work Completed
-- Dataset familiarization and data profiling
+- Dataset familiarization and structural profiling
 - Data dictionary creation
 - Missing-value and duplicate analysis
 - Data-type and categorical consistency checks
@@ -50,23 +50,23 @@ Understand, assess, clean, transform, and prepare the provided dataset for furth
 ### Tools
 Python, Pandas, Jupyter Notebook, Microsoft Excel, Git, and GitHub.
 
-### Deliverables
-- Data dictionary
+### Key Deliverables
 - Data cleaning notebook
+- Data dictionary and profiling results
 - Raw and cleaned datasets
-- Cleaning report
-- Validation evidence
+- Cleaning documentation
+- Data quality validation evidence
 
-👉 **[View Task 1 →](./01_Task_1_Data_Wrangling/)**
+👉 **[View Task 1 — Data Wrangling](./01_Task_1_Data_Wrangling/)**
 
 ---
 
-## 2️⃣ Task 2 — Exploratory Data Analysis & Business Intelligence
+## 2️⃣ Task 2 — Exploratory Data Analysis & SQL
 
 **Status:** 🟢 Completed
 
 ### Objective
-Explore the cleaned sales dataset to identify patterns, trends, relationships, and business insights using descriptive statistics, visualization, and SQL.
+Explore the cleaned sales dataset to identify business patterns, sales trends, customer characteristics, and relationships using descriptive statistics, visualizations, and SQL.
 
 ### Work Completed
 - Dataset structure and descriptive-statistics analysis
@@ -78,144 +78,276 @@ Explore the cleaned sales dataset to identify patterns, trends, relationships, a
 - Sales visualizations and a static dashboard
 - Documentation of findings, challenges, and limitations
 
-### Key Deliverables
-- EDA Jupyter Notebook
-- SQL business-analysis queries
-- Five visualizations
-- Retail sales dashboard image
-- Findings and challenges report
-- Supporting datasets and SQL validation scripts
-
 ### Tools
 Python, Pandas, Jupyter Notebook, MySQL, SQL, Matplotlib, Seaborn, and GitHub.
 
+### Key Deliverables
+- Exploratory Data Analysis notebook
+- SQL business-analysis queries
+- Sales visualizations
+- Retail sales dashboard image
+- Findings and challenges report
+- Supporting datasets and validation scripts
+
 ### Key Learnings
-Task 2 strengthened my ability to investigate data quality, validate analytical results, translate business questions into SQL queries, interpret statistical relationships, and communicate findings through visualizations.
+Developed practical skills in data exploration, data quality assessment, SQL querying, statistical interpretation, and communicating analytical findings through visualizations.
 
-👉 **[View Task 2 →](./02_Task_2_EDA_SQL/)**
+👉 **[View Task 2 — EDA & SQL](./02_Task_2_EDA_SQL/)**
 
 ---
 
-## 3️⃣ Task 3 — Deep-Dive Analysis & Interactive Dashboarding
+## 3️⃣ Task 3 — Customer Segmentation & Interactive Dashboarding
 
-**Status:** ⚪ Not Started
+**Status:** 🟢 Completed
 
 ### Objective
-Perform a focused analysis of a key business area and build an interactive dashboard around core KPIs.
+Analyze customer purchasing behavior, develop meaningful customer segments, define business KPIs, and communicate findings through an interactive Power BI dashboard.
 
-### Planned Work
-- Define 3–5 core KPIs and their formulas
-- Select a business area for deeper analysis
-- Perform detailed analysis using Python or SQL
-- Build an interactive dashboard
-- Document findings and recommendations
+### Work Completed
+- Loaded and analyzed the cleaned sales dataset in Power BI
+- Created a customer-level summary table
+- Calculated customer sales, order counts, quantities, average order value metrics, and purchase frequency
+- Developed customer sales and order ranking calculations
+- Segmented customers using sales percentiles
+- Created KPI measures and dashboard cards
+- Built a customer count by segment visualization
+- Developed monthly sales trend analysis
+- Improved dashboard layout, colors, formatting, and interactivity
+- Documented findings and prepared project deliverables
+
+### Customer Segmentation Approach
+
+| Segment | Definition |
+|---|---|
+| **High-Value** | Customer sales at or above the 80th percentile |
+| **Regular** | Customer sales at or above the 40th percentile but below the 80th percentile |
+| **Occasional** | Customer sales below the 40th percentile |
+
+### Dashboard KPIs
+- Total Sales
+- Total Customers
+- Total Orders
+- Average Order Value
+- Sales per Customer
 
 ### Tools
-Power BI / BI Tool, Python, SQL, and data visualization.
+Microsoft Power BI, DAX, Excel, data modeling, data visualization, and GitHub.
 
-👉 **[View Task 3 →](./03_Task_3_Deep_Dive_Dashboard/)**
+### Key Deliverables
+- Interactive Power BI dashboard
+- Power BI `.pbix` project file
+- Dashboard screenshot
+- Deep-dive analysis report
+- Supporting analysis and documentation
+
+👉 **[View Task 3 — Customer Segmentation Dashboard](./03_Task_3_Deep_Dive_Dashboard/)**
 
 ---
 
-## 4️⃣ Task 4 — Data Storytelling & Statistical Validation
+## 4️⃣ Task 4 — Statistical Analysis & Data Storytelling
 
-**Status:** ⚪ Not Started
+**Status:** 🟢 Completed
 
 ### Objective
-Transform the analysis from earlier tasks into a clear business story and use statistical methods to validate important findings.
+Turn analytical findings into a clear business narrative and use statistical methods to investigate data quality concerns and evaluate whether observed differences between customer groups are statistically significant.
 
-### Planned Work
-- Develop a business narrative
-- Define a testable hypothesis
-- Perform appropriate statistical testing
-- Interpret p-values and confidence intervals
-- Develop a professional presentation
-- Communicate business conclusions and recommendations
+### Work Completed
+- Investigated dataset quality and identifier consistency
+- Examined repeated order identifiers and their potential impact
+- Prepared customer-level summary data
+- Compared customer-level average recorded transaction sales by gender
+- Formulated null and alternative hypotheses
+- Conducted Welch's independent two-sample t-test
+- Calculated the p-value and 95% confidence interval
+- Performed a sensitivity analysis excluding flagged records
+- Documented the methodology, assumptions, findings, limitations, and recommendations
+- Created a professional PowerPoint presentation and recorded presentation video
+
+### Statistical Analysis
+
+The primary analysis compared customer-level average recorded transaction sales between male and female customer groups.
+
+**Hypotheses**
+
+- **Null hypothesis (H₀):** The population means of customer-level average recorded transaction sales are equal for the two groups.
+- **Alternative hypothesis (H₁):** The population means differ between the two groups.
+
+**Significance level:** α = 0.05
+
+**Primary test results**
+
+| Metric | Result |
+|---|---:|
+| Male customers included | 468 |
+| Female customers included | 445 |
+| Difference in sample means (male − female) | 5,766.91 |
+| Welch's t-statistic | 0.7728 |
+| Degrees of freedom | 910.945 |
+| p-value | 0.4399 |
+| 95% confidence interval for the difference | −8,878.91 to 20,412.73 |
+| Statistical decision | Fail to reject H₀ |
+
+### Interpretation
+
+The observed difference between the sample means was not statistically significant at the 5% significance level. The 95% confidence interval included zero, so the analysis did not provide sufficient evidence of a difference in population means.
+
+This does **not** prove that the two groups are identical. It means the analysis did not establish a statistically significant difference using the selected test and data.
+
+The analysis also identified a repeated `Order_ID` that appeared across multiple transaction and customer identifiers. This was treated as a potential data-quality issue rather than automatically deleting the affected records. A sensitivity analysis showed the same statistical decision after temporarily excluding flagged records.
+
+**Important limitation:** The measure is described as *customer-level average recorded transaction sales*. The business meaning of the order identifier and the currency or unit of the sales values have not been independently verified. Therefore, the results should not be interpreted as a confirmed conventional average order value or as evidence of causation.
 
 ### Tools
-Python, statistics, PowerPoint / Google Slides, and data visualization.
+Python, Pandas, NumPy, SciPy, Matplotlib, statistical hypothesis testing, PowerPoint, Markdown, and GitHub.
 
-👉 **[View Task 4 →](./04_Task_4_Statistics_Storytelling/)**
+### Key Deliverables
+- Statistical analysis scripts
+- Customer-level summary CSV
+- Group summary CSV
+- Hypothesis test results in JSON
+- Statistical comparison visualization
+- Deep-dive analysis report
+- PowerPoint presentation
+- Presentation video
+- Task-specific README and requirements file
+
+👉 **[View Task 4 — Statistical Storytelling](./04_Task_4_Statistics_Storytelling/)**
 
 ---
 
-## 5️⃣ Task 5 — Capstone Integration & Portfolio Finalization
+## 5️⃣ Task 5 — Capstone Integration & Portfolio Development
 
-**Status:** ⚪ Not Started
+**Status:** 🟡 In Progress
 
 ### Objective
-Consolidate the internship work into a professional portfolio and present the complete learning journey.
+Integrate the completed internship projects into a polished, professional portfolio website that presents the projects, technical skills, analytical findings, and deliverables clearly.
 
 ### Planned Work
-- Review Tasks 1–4
-- Improve project consistency and presentation
-- Finalize the portfolio
-- Prepare the final presentation
-- Document technical skills and learning outcomes
-- Prepare LinkedIn content
-- Perform a final project review
+- Review and organize Tasks 1–4
+- Build a responsive portfolio website
+- Present project objectives, workflows, tools, and outcomes
+- Add dashboard screenshots, visualizations, and project links
+- Connect GitHub repositories and relevant professional profiles
+- Deploy the website using GitHub Pages
+- Test navigation, responsiveness, accessibility, and links
+- Finalize internship documentation and presentation
 
 ### Tools
-GitHub, GitHub Pages / portfolio tools, PowerPoint / Google Slides, and LinkedIn.
+HTML, CSS, JavaScript, Git, GitHub, and GitHub Pages.
 
-👉 **[View Task 5 →](./05_Task_5_Portfolio/)**
+👉 **[View Task 5 — Portfolio Development](./05_Task_5_Portfolio/)**
+
+*Note: The Task 5 folder link will work once the folder has been created and pushed to this repository.*
 
 ---
 
-# 🛠️ Skills Demonstrated
+# 🛠️ Technical Skills Demonstrated
 
 ### Programming & Data Analysis
 - Python
 - Pandas and NumPy
-- Data Wrangling
+- Data cleaning and transformation
 - Exploratory Data Analysis
-- Descriptive and Statistical Analysis
-- Data Quality Validation
+- Descriptive statistics
+- Statistical hypothesis testing
+- Data quality validation
 
 ### Database & SQL
-- SQL and MySQL
-- Data Extraction
-- Filtering and Aggregation
-- Grouping and Business Queries
-- Analytical Result Validation
+- MySQL
+- SQL filtering and aggregation
+- GROUP BY and analytical queries
+- Business metric calculation
+- Query result validation
 
 ### Visualization & Business Intelligence
-- Matplotlib
-- Seaborn
-- Sales Trend Analysis
-- Correlation Analysis
-- Dashboard Development
-- Business Intelligence
+- Microsoft Power BI
+- DAX and calculated measures
+- KPI development
+- Customer segmentation
+- Sales trend analysis
+- Matplotlib and Seaborn
+- Dashboard design and storytelling
 
-### Professional & Portfolio Skills
-- Data Storytelling
-- Business Communication
+### Statistical & Business Communication
+- Hypothesis formulation
+- Welch's t-test
+- p-value and confidence interval interpretation
+- Sensitivity analysis
+- Analytical reporting
+- Business recommendations
+- PowerPoint presentation development
+
+### Development & Portfolio
 - Git and GitHub
-- Technical Documentation
-- Project Organization
-- LinkedIn Project Presentation
+- Technical documentation
+- Project organization
+- Markdown
+- HTML, CSS, and JavaScript for portfolio development
+- GitHub Pages deployment
 
 ---
 
-## 📈 Internship Progress Tracker
+# 📈 Internship Progress Tracker
 
 ```text
 Task 1  ████████████████████  100%  ✅ Completed
 Task 2  ████████████████████  100%  ✅ Completed
-Task 3  ░░░░░░░░░░░░░░░░░░░░    0%  ⏳ Not Started
-Task 4  ░░░░░░░░░░░░░░░░░░░░    0%  ⏳ Not Started
-Task 5  ░░░░░░░░░░░░░░░░░░░░    0%  ⏳ Not Started
+Task 3  ████████████████████  100%  ✅ Completed
+Task 4  ████████████████████  100%  ✅ Completed
+Task 5  ░░░░░░░░░░░░░░░░░░░░   In Progress
 ```
+
+---
+
+# 📂 Repository Structure
+
+```text
+ApexPlanet-Data-Analytics-Internship/
+│
+├── 01_Task_1_Data_Wrangling/
+│   └── Data profiling, cleaning, notebooks, and datasets
+│
+├── 02_Task_2_EDA_SQL/
+│   └── EDA, SQL analysis, visualizations, and reports
+│
+├── 03_Task_3_Deep_Dive_Dashboard/
+│   └── Customer segmentation, Power BI dashboard, and analysis
+│
+├── 04_Task_4_Statistics_Storytelling/
+│   ├── figures/
+│   ├── outputs/
+│   ├── ppt/
+│   ├── report/
+│   ├── scripts/
+│   ├── video/
+│   ├── README.md
+│   └── requirements-task4.txt
+│
+├── 05_Task_5_Portfolio/
+│   └── Portfolio website files (planned)
+│
+└── README.md
+```
+
+*This structure summarizes the main task folders. Refer to each task's README for its actual contents and deliverables.*
 
 ---
 
 ## 📌 Repository Notes
 
 - Each task has its own folder containing relevant code, documentation, and deliverables.
-- Task-specific README files provide details about the work completed.
-- Analysis results and findings are documented to support reproducibility and review.
-- Internship progress will be updated as additional tasks are completed.
+- Task-specific README files provide detailed information about the work completed.
+- Analysis outputs and findings are documented to support reproducibility and review.
+- Statistical conclusions are interpreted in the context of the available data and its limitations.
+- The repository is updated as the internship progresses.
+- Task 5 will consolidate the completed projects into a professional portfolio website.
 
 ---
 
-**Thank you for visiting my ApexPlanet Data Analytics Internship repository!** 🚀
+## 👨‍💻 About This Project
+
+This repository represents my practical learning journey in data analytics, from preparing raw data to performing statistical analysis and communicating results through dashboards and presentations.
+
+My focus is on developing the ability to **clean data, ask meaningful questions, validate analytical results, communicate insights, and support evidence-based business decisions**.
+
+Thank you for visiting my ApexPlanet Data Analytics Internship repository! 🚀
